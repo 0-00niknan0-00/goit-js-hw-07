@@ -1,5 +1,5 @@
 const categoriesList = document.getElementById('categories');
-const categoriesItems = document.querySelectorAll('.list-item');
+const categoriesItems = document.querySelectorAll('.item');
 
 categoriesItems.forEach(category => {
   const categoryName = category.querySelector('h2').textContent;
